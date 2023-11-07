@@ -6,7 +6,10 @@ Link Shrinker is a web application that allows you to save your links and create
 - React
 - Framer Motion
 - React Router
-- Tailwind CSS
+- Tailwind CSS (for styling)
+- Eslint (for linting)
+- Prettier (for code formatting)
+- Vite (for development server and build tool)
 
 ## Installation
 
