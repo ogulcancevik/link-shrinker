@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 const LinkForm = () => {
   const [links, setLinks] = useState([]);
   const addLink = () =>
-    setLinks([...links, { name: '', url: '', color: '', textColor: '' }]);
+    setLinks([...links, { name: '', url: '', bgColor: '#000', textColor: '#fff' }]);
   const getCachedLinks = () => {
     const links = JSON.parse(localStorage.getItem('links'));
     setLinks(links || []);
@@ -132,10 +132,10 @@ const Links = ({ links, setLinks }) => {
                       <input
                         type="color"
                         id="color"
-                        value={link.color}
+                        value={link.bgColor}
                         onChange={(e) => {
                           if (links[index]) {
-                            links[index].color = e.target.value;
+                            links[index].bgColor = e.target.value;
                             setLinks([...links]);
                           }
                         }}

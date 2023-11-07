@@ -61,7 +61,7 @@ const PreviewModal = ({ setShowModal }) => {
                     exit={{ opacity: 0 }}
                     key={index}
                     className="text-white rounded-lg w-96 xl:w-64 xl:text-sm h-14 flex px-5 items-center cursor-pointer"
-                    style={{ backgroundColor: link.color }}
+                    style={{ backgroundColor: link.bgColor }}
                     onClick={() => openLink(link.url)}
                   >
                     <span
