@@ -58,7 +58,7 @@ To deploy your application to a live server, you can follow these steps:
 
 ## LIVE DEMO
 
-[https://profound-churros-7e3702.netlify.app/](https://profound-churros-7e3702.netlify.app/)
+[https://link-shrinker-react.netlify.app/](https://link-shrinker-react.netlify.app)
 
 ## License
 
