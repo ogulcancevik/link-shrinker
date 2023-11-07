@@ -2,6 +2,12 @@
 
 Link Shrinker is a web application that allows you to save your links and create cards by entering your profile information.
 
+## Tech Stack
+- React
+- Framer Motion
+- React Router
+- Tailwind CSS
+
 ## Installation
 
 1. Clone this project:
